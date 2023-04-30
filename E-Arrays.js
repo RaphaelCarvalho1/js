@@ -56,5 +56,20 @@ array.forEach((val, index, array)=>{
 
 // não retorna valor nenhum
 
+//inclusive, esses valores podem ser omitidos
+
+array.forEach(val=>{
+})
+
+//mas se eu quiser o index, tenho que ter o val
+
+array.forEach((val, index)=>console.log(val));
+
+// e além disso, esses nomes podem ser qualquer coisa, o importante mesmo é a ordem
+
+array.forEach((maca, banana, melao)=>{
+
+})
+
 // existem outras funções para iterar sobre arrays de um modo especifico,
 // filter, map e reduce. Quem quiser saber como que é, me procura ou vê na MDN
